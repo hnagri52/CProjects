@@ -24,5 +24,10 @@ int main(){
     printf("%s\n", str);
     puts(str2);
 
+    if(strcmp(str, str2)==0)
+        printf("This is a palindrome");
+    else
+        printf("This is not a palindrome");
+    
     return 0;
 }
